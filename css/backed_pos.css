@@ -1,0 +1,264 @@
+*{
+    font-family: 'Prompt', sans-serif;
+}
+/* แต่งส่วน modal  */
+h4 , h5{
+  font-family: 'Prompt', sans-serif !important;
+  margin-left: 10px !important;
+}
+.close{
+  border: 1px solid rgba(192, 185, 185, 0);
+  background-color: rgba(192, 185, 185, 0);
+  padding: 0px 0px !important;
+  width: 40px;
+  /* height: 20px; */
+  border-radius: 5px;
+  color: #474545;
+  font-size: 50px;
+}
+#modaldel{
+  padding: 0% !important;
+}
+#page-top{
+    background-color: #fcfcfc;
+}
+.fullscreen {
+    /* สูงเท่ากับความสูงของหน้าจอ */
+    height: 70vh;
+    /* ทำให้ .left, .center และ .right ต่อกันเป็นแนวนอน */
+    display: flex;
+  }
+
+  .left,
+  .center,
+  .right {
+    box-sizing: border-box;
+    padding: 16px;
+  }
+
+  .left {
+    width: 15%;
+  }
+  #row_profile{
+      margin-left: 7px;
+      margin-bottom: 1em;
+  }
+  
+
+  .center {
+    background-color:whitesmoke;
+    width: 45%;
+    margin-left: 21%;
+    border-radius: 5px;
+    margin-top: 2em;
+    height: 45.5em;
+    box-shadow: 10px 10px 10px rgb(211, 214, 211) ;
+    /* ถ้าข้อมูลมันเยอะจนล้นตามแนวแกน y ให้มัน scroll */
+    overflow-y: scroll;
+  }
+
+  .bar{
+      width: 100%;
+      /* background-color:#8e24aa; */
+      height: 15em;
+      z-index: -10;
+  }
+  .add{
+    margin-top: 0.5em;
+    box-shadow: 5px 5px 5px rgb(192, 189, 189);
+    width: 110px;
+    padding: 15px;
+    background-color: rgb(39, 148, 182);
+    color: white;
+    border: solid 1px  rgb(39, 148, 182);
+    z-index: 1000;
+    position: fixed;
+    border-radius: 5px;
+    transition: 0.5s;
+     margin-left: 90em;
+     text-decoration: none;
+     margin-top: 42.5em;
+  }
+  .add:hover{
+    background-color: rgb(33, 108, 131);
+    color: white;
+    border: solid 1px  rgb(33, 108, 131);
+  }
+  a.manage{
+    font-size: 1.3em !important;
+    text-decoration: none;
+    box-shadow: 2px 5px 2px rgb(224, 221, 221);
+    padding: 0px 15px;
+      width: 15em;
+      color: white !important;
+      background-color: rgb(83, 150, 196);
+      margin-top: 5px;
+      border-radius: 7px;
+      transition: 0.5s;
+  }
+  a.manage:hover{
+    background-color: rgb(46, 90, 119);
+  }
+  .welcome{
+    margin-left: 42%;
+    margin-top: 0.7em;
+  }
+.sidenav {
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#fff;
+    overflow-x: hidden;
+    padding-top: 20px;
+    box-shadow: #b9b8b8 2px 10px 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #474545;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #898f92;
+  }
+  #fullscreen{
+      height: 100vh;
+  }
+
+ .card{
+     border-radius: 10px !important;
+     box-shadow: 5px 5px 5px rgb(219, 216, 216);
+     margin-top: -0.5em !important;
+ }
+ .btn_add{
+    padding: 0 27px ;
+    text-decoration: none;
+    border: 2px solid  rgb(21, 168, 161);
+    border-radius: 5px;
+    background-color:rgb(21, 168, 161);
+    color: lightgray;
+    transition: 0.3s;
+ }
+ .btn_add:hover{
+    background-color: rgb(22, 129, 124);
+    color: white;
+    border:2px solid rgb(22, 129, 124);
+ }
+ .right {
+    width: 25%;
+    margin-top: -1em;
+    margin-left: 0.5em;
+  }
+
+  .card{
+    margin-top: 1em;
+}
+.card_text{
+
+    margin-top: 1.5em;
+    margin-bottom: 0;
+}
+.text1{
+    margin-top: -1em;
+    margin-left: 1em;
+}
+#row_card{
+    width: 33em;
+    background-color: rgb(255, 255, 255);
+    height: 45.5em;
+  border: solid 1px #f1f1f1;
+  box-shadow: #b9b8b8 2px 5px 20px;
+  border-radius: 5px;
+  /* position: fixed; */
+  margin-top: 2em;
+
+}
+.topic{
+  margin-left: 1em;
+  background-color: rgb(54, 136, 190);
+  margin-top: -50em;
+  height: 2em;
+  padding: 5px;
+  color: white;
+  width: 45% !important;
+  border-radius: 3px;
+}
+.text3{
+    margin-top: 0.5em;
+}
+
+.item2 {
+    margin-top: -21em;
+    width: 100%;
+}
+table tr{
+    border-bottom: solid 1px rgb(209, 207, 207);
+}
+.th1 ,.td1{
+  width: 10%;
+}
+.th2 ,.td2{
+  width: 17%;
+}
+.th3 ,.td3{
+  text-align: center;
+  width: 25%;
+}
+.th4 ,.td4{
+width: 17%;
+text-align: center;
+
+}
+.th5 ,.td5{
+  width: 15%;
+}
+.btn_d{
+  background-color: rgb(230, 227, 228);
+  color: rgb(71, 70, 70);
+  border-radius: 5px;
+  width: 35px;
+  border: 0px;
+  transition: 0.3s;
+}
+.btn_p{
+  background-color:  rgb(230, 227, 228);
+  color: rgb(71, 70, 70);
+  border-radius: 5px;
+  transition: 0.3s;
+  border: 0px;
+  width: 35px;
+}
+.btn_d:hover{
+  background-color:  rgb(92, 88, 90);
+  color: white;
+}
+.btn_p:hover{
+  background-color:  rgb(92, 88, 90);
+  color: white;
+}
+.btn_delete{
+  background-color:  rgb(143, 23, 63);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  transition: 0.3s;
+  border: 0px;
+  width: 35px;
+  margin-left: 20%;
+}
+.img_bin{
+  width: 60%;
+}
+.btn_delete:hover{
+  background-color:  rgb(182, 59, 121);
+  color: white;
+}
+
+  
+

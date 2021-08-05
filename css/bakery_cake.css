@@ -1,0 +1,26 @@
+.breadcrumb{
+    margin-top: 5%;
+    padding-left: 7%;
+    margin-bottom: 0%;
+}
+a{
+    color: #041e57;
+}
+a:link{
+    text-decoration: none;
+    font-weight: underline; 
+}
+a:hover {
+    color: #214753;
+}
+.card_index{
+    border-radius: 20px !important;
+    margin-top: 30px;
+    background-color: rgb(250, 239, 210);
+    border: 0px;
+    box-shadow: rgb(247, 183, 183) 10px 10px 1px;
+}
+.card-img-top{
+    padding: 10px;
+    border-radius: 15px;
+}

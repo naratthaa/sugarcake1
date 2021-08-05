@@ -1,0 +1,208 @@
+*{
+    font-family: 'Prompt', sans-serif;
+}
+body{
+    background-color: rgb(212, 212, 208);
+}
+.imgpro{
+    border-radius: 80%;
+    width: 200px;
+    height: 200px;
+    /* box-shadow: 0 30px 50px rgba(37, 37, 37, 0.2); */
+    margin-top: 15%;
+    border: 5px solid rgb(228, 191, 166);
+
+  }
+.col-4{
+    margin-top: 1%;
+}
+#cover{
+    background-color: rgb(250, 246, 248);
+    height: 20em;
+    padding-bottom: 30vh;
+    margin-top: 5em;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(109, 108, 108, 0.2);
+}
+#cover2{
+    background-color: rgb(250, 246, 248);
+    height: 30em;
+    padding-bottom: 30vh;
+    margin-top: 5em;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(109, 108, 108, 0.2);
+}
+.btn_edit{
+    width: 8em;
+    margin-top: -15em;
+    background-color: rgb(224, 177, 89);
+    border: 0px solid;
+    padding: 5px;
+    border-radius: 7px;
+    color: white;
+    transition: 0.3s;
+}
+.btn_edit:hover{
+    background-color: rgb(207, 167, 92);
+}
+
+.col-8 > h3{
+    padding-top: 1em;
+    padding-left:1em ;
+}
+.col-8 > p{
+    padding-left:1em ;
+}
+
+
+.navbar{
+    padding: 0%;
+    width: 100%;
+    box-shadow: rgb(196, 192, 192) 2px 2px 10px ;  
+}
+#navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
+    margin-left: 0% auto;
+}
+.breadcrumb{
+    margin-top: 5%;
+    padding-left: 7%;
+    margin-bottom: 1%;
+}
+h2{
+padding-top: 1em;
+}
+#choice{
+    margin: 0 2px;
+}
+#btn{
+    margin-right:2em ;
+    font-weight: bold;
+}
+
+a{
+    color: rgb(13, 136, 145);
+}
+a:link{
+    text-decoration: none;
+    font-weight: underline; 
+}
+a:hover {
+    color: lightsalmon;
+}
+table,tr,td{
+    padding-left: 2em;
+    margin-top: 2em;
+}
+button{
+    margin: 0.5em 1em;
+    font-weight: bold;
+}
+
+
+.footer{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(173, 156, 106);
+    
+}
+.icon_cart{
+    position: absolute;  
+    right: 70px; 
+}
+.icon_user{
+    position: absolute;  
+   right: 30px;   
+}
+#cart_text{
+    color: rgb(13, 136, 145);
+}
+#user_text{
+    color: rgb(247, 107, 149);
+}
+#cart, #user {
+    display: none;
+}
+/* จบ navbar  */
+.card{
+    margin-bottom: -2%;
+    margin-top: 2em;
+    transition: 0.5s;
+    
+}
+.card:hover{
+    box-shadow: 5px 5px 5px lightgray;
+}
+
+.left{
+    box-sizing: border-box;
+    border-radius: 7px;
+    width: 60%;
+    padding: 16px;
+    background-color: rgb(228, 226, 226);
+    height: 32em;
+    margin-top: 2em;
+    margin-left: 2.5em;
+    overflow-y: scroll;
+}
+.right {
+    box-sizing: border-box;
+    border-radius: 7px;
+    width: 35%;
+    padding: 5px;
+    background-color: rgb(228, 226, 226);
+    height: 32em;
+    margin-top: 2em;
+    margin-left: 0.5em;
+    overflow-y: scroll;
+  }
+ 
+.btn_edit{
+    box-shadow: 5px 5px 1px rgb(218, 210, 100);
+    margin-top:13em;
+}
+.btn_logout{
+    box-shadow: 5px 5px 1px rgb(235, 155, 155);
+    background-color: rgb(204, 88, 88);
+    width: 8em;
+    color: white;
+    border-radius: 7px;
+    transition: 0.3s;
+    padding: 4px 15px;
+    border:0px
+}
+.btn_logout:hover{
+    background-color: rgb(180, 80, 80);
+}
+.btn_show{
+    box-shadow: 5px 5px 1px rgb(157, 226, 223);
+    background-color: rgb(73, 206, 199);
+    width: 8em;
+    color: white;
+    border-radius: 7px;
+    transition: 0.3s;
+    padding: 4px 15px;
+    border:0px
+}
+.btn_show:hover{
+    background-color: rgb(80, 182, 177);
+}
+
+
+
+
+@media (max-width: 992px){
+    #cart, #user {
+        display: block;
+    }
+    .icon_cart, .icon_user{
+        display: none;
+    }
+    .card{
+        width: 70%;
+        margin: 0% auto;
+        margin-bottom: 2em;
+    }
+}

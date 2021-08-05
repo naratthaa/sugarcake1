@@ -1,0 +1,111 @@
+*{
+    font-family: 'Prompt', sans-serif;
+}
+body{
+    background-color: rgb(253, 253, 247);
+}
+
+.navbar{
+    padding: 0%;
+    width: 100%;
+    box-shadow: rgb(196, 192, 192) 2px 2px 10px ;  
+}
+#navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
+    margin-left: 0% auto;
+}
+.icon_cart{
+    position: absolute;  
+    right: 70px; 
+}
+.icon_user{
+    position: absolute;  
+   right: 30px;   
+}
+#cart_text{
+    color: rgb(13, 136, 145);
+}
+#user_text{
+    color: rgb(247, 107, 149);
+}
+#cart, #user {
+    display: none;
+}
+h1{
+    margin-top: 2em;
+    font-size: 3em;
+    font-weight: bolder;
+}
+iframe{
+    height: 25em;
+    margin: 2em 0;
+}
+tr{
+    padding-bottom: 42em;
+}
+.b{
+    font-weight: bold;
+}
+.sp{
+    padding: 0 15px;
+   
+}
+/* จบ navbar  */
+
+.text_title{
+    font-weight: bold;
+    width: 10em;
+    color: white;
+    padding: 5px;
+    border-radius: 7px;
+    box-shadow: rgb(245, 173, 239) 5px 5px 1px;
+    margin-top: 3em;
+    margin-bottom: 3%;
+    background-color: rgb(196, 93, 182);
+
+}
+.img_icon{
+    box-shadow: 5px 5px 5px rgb(194, 193, 193);
+}
+.map{
+    height: 30em !important;
+    box-shadow: 20px 20px 1px rgb(154, 202, 221);
+    border-radius: 5px;
+}
+
+#bg_img{
+    height: 60vh;
+    filter: brightness(0.9);
+    display: flex;
+    justify-items: center;
+    align-items:center;
+    background-attachment: fixed; 
+    font-size: 60px;
+    color: rgb(87, 84, 84);
+    text-align: center;
+    
+}
+.footer{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(173, 156, 106);
+    margin-top: 5em;
+    
+}
+
+
+@media (max-width: 992px){
+    #cart, #user {
+        display: block;
+    }
+    .icon_cart, .icon_user{
+        display: none;
+    }
+    .card{
+        width: 70%;
+        margin: 0% auto;
+        margin-bottom: 2em;
+    }
+}

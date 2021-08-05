@@ -1,0 +1,137 @@
+*{
+    font-family: 'Prompt', sans-serif !important;
+}
+body{
+    background-color: rgb(253, 253, 247);
+}
+a{
+    color: rgb(13, 136, 145);
+}
+.navbar{
+    height: 4.3em !important;
+}
+.nav_menu{
+    font-size: 1.07em !important;
+    margin-left: 6.3px !important;
+}
+a:link{
+    text-decoration: none;
+    font-weight: underline; 
+}
+a:hover {
+    color: lightsalmon;
+}
+#detail{
+    margin-bottom: -2%;
+    margin-top: 10px;
+}
+table{
+    line-height: 1.8em;
+    margin-top: 10px;
+    font-size: 1em;
+}
+.float{
+    font-weight: bold;
+}
+h3{
+    font-weight: bolder;
+    padding-bottom: 1em;
+}
+table,tr,td{
+    padding-left: 2em;
+}
+button{
+    margin: 3em 1em;
+    font-weight: bolder;
+}
+
+
+.card{
+    margin-bottom: -2%;
+    margin-top: 10px;
+    transition: 0.5s;   
+}
+#box{
+    margin-left: 70px;
+    width:40%;
+    border-style:solid;
+    border: 0px;
+    border-radius: 15px;
+    margin-top: 3em;
+    padding: 2em 2em ;
+    background-color:rgb(250, 245, 232);
+    box-shadow: 10px 10px 1px rgb(247, 183, 183);
+}
+.card-img-top{
+    border-radius: 10px;
+    box-shadow: 5px 5px 1px rgb(247, 167, 167);
+}
+.text_title{
+    font-weight: bold;
+    width: 10em;
+    color: white;
+    padding: 5px;
+    border-radius: 7px;
+    box-shadow: rgb(245, 173, 239) 5px 5px 1px;
+    margin-top: 5em;
+    margin-bottom: 3%;
+    background-color: rgb(196, 93, 182);
+
+}
+.text_namepro{
+    margin-top: -1em;
+    font-size: 1.2em;
+    border-radius: 3px;
+    font-weight: bold;
+    width: 15em;
+    color: white;
+    box-shadow: rgb(255, 255, 255) 5px 5px 1px;
+    background-color: rgb(228, 184, 90);
+    padding: 5px;
+}
+.row1{
+    margin-top: 5em;
+}
+.btn-lg{
+    margin-bottom: 0.5em;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: rgb(54, 148, 148);
+    border: 2px solid rgb(54, 148, 148);
+    color: white;
+    transition: 0.5s;
+    font-weight: bold;
+}
+.btn-lg:hover{
+    background-color: rgb(50, 119, 119);
+    border: 2px solid rgb(54, 148, 148);
+    color: white;
+}
+.btn-num{
+    background-color: rgb(248, 245, 245);
+    color: rgb(66, 125, 173);
+    border: 1px solid rgb(146, 142, 142);
+    text-align: center;
+    width: 40px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.btn-de , .btn-pl{
+    padding: 2px;
+    background-color: rgb(110, 195, 245);
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    width: 2em;
+    /* font-size: 2em; */
+}
+
+
+
+.footer{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(173, 156, 106);
+    margin-top: 5em;
+    
+}

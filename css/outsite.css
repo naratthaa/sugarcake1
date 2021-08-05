@@ -1,0 +1,223 @@
+*{
+    font-family: 'Prompt', sans-serif;
+}
+body{
+    background-color: rgb(253, 253, 247);
+}
+
+.navbar{
+    padding: 0%;
+    width: 100%;
+    box-shadow: rgb(196, 192, 192) 2px 2px 10px ;  
+}
+#navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
+    margin-left: 0% auto;
+}
+.breadcrumb{
+    margin-top: 5%;
+    padding-left: 7%;
+    margin-bottom: 1%;
+}
+h2{
+padding-top: 1em;
+}
+#choice{
+    margin: 0 2px;
+}
+#btn{
+    margin-right:2em ;
+    font-weight: bolder;
+}
+
+a{
+    color: rgb(13, 136, 145);
+}
+a:link{
+    text-decoration: none;
+    font-weight: underline; 
+}
+a:hover {
+    color: lightsalmon;
+}
+table,tr,td{
+    padding-left: 2em;
+    margin-top: 2em;
+}
+button{
+    margin: 0.5em 1em;
+    font-weight: bolder;
+}
+.card{
+    margin-bottom: -2%;
+    margin-top: 2em;
+    transition: 0.5s;
+    
+}
+.card:hover{
+    box-shadow: 5px 5px 5px lightgray;
+}
+.text_title{
+    font-weight: bold;
+    width: 8em;
+    color: white;
+    padding: 5px;
+    border-radius: 7px;
+    box-shadow: rgb(245, 173, 239) 5px 5px 1px;
+    margin-top: 2em;
+    margin-bottom: 3%;
+    background-color: rgb(196, 93, 182);
+
+}
+
+.left{
+    box-sizing: border-box;
+    border-radius: 7px;
+    width: 55%;
+    padding: 16px;
+    background-color: #faf9e2;
+    height: 32em;
+    margin-left: 3em;
+    overflow-y: scroll;
+    box-shadow: 10px 10px 1px rgb(247, 183, 183);
+}
+.nav_type{
+    width: 7em !important;
+    color: rgb(255, 255, 255) !important;
+    background-color:rgb(161, 115, 77) ;
+    box-shadow: white 5px 5px 1px;
+    font-weight: bold !important;
+    padding: 5px;
+    margin-left: 5px;
+    transition: 0.2s;
+    border-radius: 10px;
+}
+.card_pd{
+    border: 0px;
+    border-radius: 7px;
+    color: teal;
+    font-weight: bold;
+    box-shadow: rgb(252, 198, 198) 5px 5px 1px;
+}
+.card_pd:hover{
+    box-shadow: rgb(252, 198, 198) 5px 5px 1px;
+}
+.right {
+    box-sizing: border-box;
+    border-radius: 7px;
+    width: 35%;
+    padding: 5px;
+    background-color: #fcebeb;
+    height: 32em;
+    margin-left: 2em;
+    overflow-y: scroll;
+    box-shadow: 10px 10px 1px rgb(240, 138, 185);
+  }
+  .set_name{
+      font-size: 1.5em;
+      color: rgb(51, 131, 131);  
+      font-weight: bold;
+      margin-left: 10px;
+      margin-top: 10px;
+  }
+  .card_pdselect{
+      margin-left: 5px;
+      border: 0px;
+      box-shadow: rgb(252, 198, 198) 5px 5px 1px;
+  }
+  .card_pdselect:hover{
+    margin-left: 5px;
+    box-shadow: rgb(252, 198, 198) 5px 5px 1px;
+}
+  .row_pdselect{
+      margin-top: -1em;
+  }
+  .card-body{
+      height: 2.5em;
+
+  }
+  .namepd{
+      margin-top: -0.5em !important;
+  }
+  .btn-lg{
+    margin-bottom: 0.5em;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: rgb(54, 148, 148);
+    border: 2px solid rgb(54, 148, 148);
+    color: white;
+    transition: 0.5s;
+    font-weight: bold;
+}
+.btn-lg:hover{
+    background-color: rgb(50, 119, 119);
+    border: 2px solid rgb(54, 148, 148);
+    color: white;
+}
+  .btn_edit{
+      width:65px;
+      color: white !important;
+      margin-top: -0.7em;
+      background-color: lightsalmon;
+      font-weight: bold;
+      border: 0px;
+      border-radius: 5px;
+      padding: 2px;
+  }
+ .btn_edit:hover{
+    background-color: rgb(190, 128, 103);
+ }
+ .float{
+    font-size: 1em;
+    color: rgb(51, 131, 131);  
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10px;
+ }
+ .btn-de , .btn-pl{
+    padding: 2px;
+    background-color: rgb(110, 195, 245);
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    width: 2em;
+    /* font-size: 2em; */
+}
+.btn-num{
+    background-color: rgb(248, 245, 245);
+    color: rgb(66, 125, 173);
+    border: 1px solid rgb(146, 142, 142);
+    text-align: center;
+    width: 40px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.addset{
+    margin-left: 2em;
+    margin-top: 2em;
+    border: 0px;
+    background-color: rgb(51, 177, 149);
+    color: white;
+    border-radius: 7px;
+    padding: 5px;
+    box-shadow: rgb(193, 195, 196) 5px 5px 5px;
+}
+.addset:hover{
+    background-color: rgb(40, 133, 113);
+}
+.addcard{
+    margin-left: 2em;
+    border: 2px solid;
+    background-color: white;
+    font-weight: bold;
+    color: rgb(51, 177, 149);
+    border-radius: 7px;
+    padding: 5px;
+    box-shadow: rgb(193, 195, 196) 5px 5px 5px;
+}
+.addcard:hover{
+    background-color: rgb(184, 181, 181);
+    border: 2px solid rgb(184, 181, 181);
+}
