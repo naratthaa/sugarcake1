@@ -59,7 +59,7 @@
                     <a class="nav-link nav_menu" href="contact.php">ติดต่อเรา</a>
                   </li>
                   <li class="nav-item">
-                   <a class="nav-link" href="#ตะกร้าของฉัน"> 
+                   <a class="nav-link" href="bakery_mycart.php"> 
                   <img class="icon_cart" src="img/cart.png" alt="" width="25">
                 </a>
                   </li>
